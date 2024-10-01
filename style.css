@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #eee;
+    background: #222;
+    color: #fff;
 }
 
 h1 {
@@ -12,7 +13,7 @@ h1 {
 
 h3 {
     text-align: center;
-    margin-bottom: 2rem;
+    margin: 1rem 0;
     padding: 10px;
     background: transparent;
 }
@@ -24,9 +25,9 @@ h3 {
     justify-content: center;
     align-items: center;
     margin: 25px;
-    border: solid 5px #000;
+    border: solid 5px #fff;
     border-radius: 50px;
-    background: #fff;
+    background: #001;
 }
 
 #new-entry {
@@ -41,18 +42,18 @@ h3 {
     height: 40px;
     margin-top: 25px;
     border: none;
-    background: #f25;
+    background: #fff;
     border-radius: 20px;
-    color: #fff;
+    color: #000;
     transition: background-color 0.125s;
 }
 
 #add-button:hover {
-    background: #e14;
+    background: #eee;
 }
 
 #add-button.active {
-    background-color: #1eb; 
+    background: #999;
 }
 
 .second-div {
@@ -62,9 +63,9 @@ h3 {
 }
 
 .uncompleted-tasks-list, .completed-tasks-list {
-    border: solid 5px #000;
+    border: solid 5px #fff;
     border-radius: 50px;
-    background: #fff;
+    background: #001;
     width: 50%;
     margin: 25px;
     display: flex;
@@ -102,6 +103,7 @@ button {
     width: 20px;
     height: 20px;
     border: none;
+    margin: 0 5px; 
 }
 
 .complete-task, .delete-task {
